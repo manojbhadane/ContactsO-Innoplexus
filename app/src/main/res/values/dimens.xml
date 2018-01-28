@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--listitem users list-->
+    <dimen name="lsl_listitem_H">100dp</dimen>
+    <dimen name="lsl_listitem_marginT">10dp</dimen>
+    <dimen name="lsl_listitem_margin">10dp</dimen>
+    <dimen name="lsl_listitem_profile_WH">50dp</dimen>
+    <dimen name="lsl_listitem_username_textsize">22sp</dimen>
+    <dimen name="lsl_listitem_subtext_textsize">15sp</dimen>
+    <dimen name="lsl_listitem_subtext_marginT">5dp</dimen>
+    <dimen name="lsl_listitem_marginL">10dp</dimen>
+
+    <!--Detail screen-->
+    <dimen name="DS_marginT">5dp</dimen>
+    <dimen name="DS_card_margin">10dp</dimen>
+    <dimen name="DS_card_marginT">15dp</dimen>
+    <dimen name="DS_subtext_textsize">15sp</dimen>
+    <dimen name="DS_username_textsize">22sp</dimen>
+
+    <!--progressbar-->
+    <dimen name="prg_WH">30dp</dimen>
+    <dimen name="prg_margin">10dp</dimen>
+
+</resources>

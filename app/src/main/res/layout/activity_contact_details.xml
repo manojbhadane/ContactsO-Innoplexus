@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <RelativeLayout
+        android:id="@+id/parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/layout_toolbar"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/toolbar">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/DS_card_margin"
+                android:orientation="vertical">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:elevation="5dp"
+                    app:cardCornerRadius="5dp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="@dimen/DS_card_margin">
+
+                        <TextView
+                            android:id="@+id/txt_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Manoj Bhadane"
+                            android:textColor="@color/pocket_color_2"
+                            android:textSize="@dimen/DS_username_textsize"/>
+
+
+                        <TextView
+                            android:id="@+id/txt_user_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/DS_marginT"
+                            android:text="Username : manojjbhadane"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/DS_subtext_textsize"/>
+
+                        <TextView
+                            android:id="@+id/txt_website"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/DS_marginT"
+                            android:autoLink="web"
+                            android:linksClickable="true"
+                            android:text="Website : www.onesolutions.co.in"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/DS_subtext_textsize"/>
+
+                        <TextView
+                            android:id="@+id/txt_email"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/DS_marginT"
+                            android:text="Email : manojjbhadane@gmail.com"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/DS_subtext_textsize"/>
+
+
+                        <TextView
+                            android:id="@+id/txt_Phone"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/DS_marginT"
+                            android:text="Phone : +9156238596"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/DS_subtext_textsize"/>
+
+                        <TextView
+                            android:id="@+id/txt_address"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/DS_marginT"
+                            android:text="Address : Chinchwad , Pune"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/DS_subtext_textsize"/>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/DS_card_marginT"
+                    android:layout_marginBottom="@dimen/DS_card_marginT"
+                    android:elevation="5dp"
+                    app:cardCornerRadius="5dp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="@dimen/DS_card_margin">
+
+                        <TextView
+                            android:id="@+id/txt_company"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Company"
+
+                            android:textColor="@color/pocket_color_2"
+                            android:textSize="@dimen/DS_username_textsize"/>
+
+                        <TextView
+                            android:id="@+id/txt_companyname"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/DS_marginT"
+                            android:text="Romaguera-Crona"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/DS_subtext_textsize"/>
+
+                        <TextView
+                            android:id="@+id/txt_catchPhrase"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/DS_marginT"
+                            android:text="Multi-layered client-server neural-net"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/DS_subtext_textsize"/>
+
+                        <TextView
+                            android:id="@+id/txt_bs"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/DS_marginT"
+                            android:text="harness real-time e-markets"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/DS_subtext_textsize"/>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </RelativeLayout>
+</layout>

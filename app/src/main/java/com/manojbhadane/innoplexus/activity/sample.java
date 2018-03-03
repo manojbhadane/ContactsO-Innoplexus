@@ -6,4 +6,7 @@ package com.manojbhadane.innoplexus.activity;
 
 public class sample
 {
+
+    private int no;
+
 }
